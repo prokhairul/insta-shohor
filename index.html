@@ -75,35 +75,18 @@
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <p>JavaScript is an interpreted programming language. JavaScript is run by JS Engine in a
+                            browser like - google chrome use V8 engine, Mozila use SpiderMonkey etc. Example: When
+                            Script files
+                            Is loaded on Google Chrome, V8 engine executes the code line by line using just in time
+                            compiler (JIT). in the meantime, V8 optimize the code and convert into bytecode.
+                            As we know machine can only read bytecode. JavaScript also collect Garbage. like - we
+                            created a object, and after execution we don't need the object anymore then it will be
+                            collected as a garbage. </p>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>2. What does JavaScript event loop do?</strong>
-                    </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
-                    </div>
-                </div>
-            </div>
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -115,12 +98,40 @@
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                     aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <p> <strong>Local storeage</strong> saved the data for lifetime unless anyone delete it
+                            manually. after closing window, data
+                            will not be
+                            delated. it will be available for all current and future visits to the site
+                            <br>
+                            <br>
+                            <strong>SessionStorage</strong> only available for per tab. if you make any changes they
+                            will be available only for the current pages. if you delete/close the current window the
+                            storage data will deleted.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <strong>2. What does JavaScript event loop do?</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <p>JavaScript is single threaded, two statement in JS can't be expected in parallel. We know JS
+                            engine executes the codes line by line means JS statements are blocking.
+                            <br>
+                            <br>
+                            Event loop monitor the stack and queue. JS engine will execute stack one by one. If the
+                            stack Is empty then the event loop will take the first one from queue and push it to stack
+                            and runs it.
+                        </p>
                     </div>
                 </div>
             </div>
